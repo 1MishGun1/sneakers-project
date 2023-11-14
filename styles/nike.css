@@ -24,6 +24,11 @@ li {
   list-style: none;
 }
 
+hr {
+  max-width: 1161px;
+  margin: 0 auto;
+}
+
 .container,
 .main-conteiner {
   width: 1140px;
