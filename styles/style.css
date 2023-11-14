@@ -55,7 +55,7 @@ header .container {
 .main-title {
   font-size: 48px;
   font-weight: 700;
-  margin-bottom: 24px;
+  margin: 24px 0;
 }
 
 .container .main-items {
@@ -115,4 +115,44 @@ footer a {
   padding-top: 18px;
   padding-bottom: 21px;
   text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 30px;
+  }
+
+  hr {
+    max-width: 343px;
+    margin: 0 auto;
+  }
+
+  .main-title {
+    font-size: 32px;
+    font-weight: 700;
+    width: 251px;
+    margin: 24px 0;
+    padding-left: 16px;
+  }
+
+  .main-items {
+    grid-template-columns: repeat(1, 343px);
+    gap: 16px;
+    justify-content: flex-start;
+    padding: 0 16px;
+  }
+
+  .main-item-img img {
+    width: 343px;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 32px 0;
+  }
 }
