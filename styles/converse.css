@@ -1,0 +1,148 @@
+@font-face {
+  font-family: AnonymousPro;
+  src: url(../fonts/AnonymousPro-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: AnonymousPro;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+}
+
+hr {
+  max-width: 1161px;
+  margin: 0 auto;
+}
+
+.container,
+.main-conteiner {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 1px;
+  padding-bottom: 25px;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.social-block {
+  display: flex;
+  gap: 24px;
+}
+
+.main-conteiner {
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 32px;
+}
+
+.main-img {
+  text-align: center;
+}
+
+.main-text {
+  width: 1044px;
+  margin: auto;
+}
+
+.main-content {
+  margin-top: 32px;
+  width: 1044px;
+  display: flex;
+  gap: 32px;
+}
+
+.main-title {
+  font-size: 48px;
+  font-family: AnonymousPro;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.main-slogan {
+  font-family: AnonymousPro;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.main-discription {
+  width: 506px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+
+.main-discription p {
+  padding-bottom: 20px;
+}
+
+.main-sneakers-info {
+  width: 506px;
+}
+
+.info-title {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.line-info {
+  border: 1px solid black;
+}
+
+.info-data {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+footer {
+  background-color: #121723;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 32px 0;
+}
+
+footer a {
+  color: white;
+}
+
+.end-footer {
+  color: #a1a6b4;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 18px;
+  padding-bottom: 21px;
+  text-align: center;
+}
