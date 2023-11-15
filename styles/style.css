@@ -76,6 +76,10 @@ header .container {
   height: fit-content;
 }
 
+.main-item:hover {
+  transform: translateY(-10px);
+}
+
 .main-item-title {
   font-size: 26px;
   font-weight: 700;
