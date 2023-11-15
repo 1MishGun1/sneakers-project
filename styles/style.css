@@ -118,7 +118,11 @@ footer a {
   text-align: center;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
+  .container {
+    max-width: 380px;
+  }
+
   header .container {
     display: flex;
     flex-direction: column;
@@ -155,5 +159,6 @@ footer a {
     flex-direction: column;
     margin-top: 30px;
     padding: 32px 0;
+    align-items: center;
   }
 }
